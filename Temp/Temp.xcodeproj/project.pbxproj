@@ -15,7 +15,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		F56F6A7D1F791637004451CB /* Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Test.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F56F6A7D1F791637004451CB /* __ProjectName__.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = __ProjectName__.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F56F6A801F791637004451CB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F56F6A821F791637004451CB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		F56F6A851F791637004451CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -38,7 +38,7 @@
 		F56F6A741F791637004451CB = {
 			isa = PBXGroup;
 			children = (
-				F56F6A7F1F791637004451CB /* Test */,
+				F56F6A7F1F791637004451CB /* Classes */,
 				F56F6A7E1F791637004451CB /* Products */,
 			);
 			sourceTree = "<group>";
@@ -46,15 +46,15 @@
 		F56F6A7E1F791637004451CB /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				F56F6A7D1F791637004451CB /* Test.app */,
+				F56F6A7D1F791637004451CB /* __ProjectName__.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		F56F6A7F1F791637004451CB /* Test */ = {
+		F56F6A7F1F791637004451CB /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				F56F6A951F791FC8004451CB /* Test */,
+				F56F6A951F791FC8004451CB /* __ProjectName__ */,
 				F56F6A801F791637004451CB /* AppDelegate.swift */,
 				F56F6A821F791637004451CB /* ViewController.swift */,
 				F56F6A841F791637004451CB /* Main.storyboard */,
@@ -62,22 +62,22 @@
 				F56F6A891F791637004451CB /* LaunchScreen.storyboard */,
 				F56F6A8C1F791637004451CB /* Info.plist */,
 			);
-			path = Test;
+			path = Classes;
 			sourceTree = "<group>";
 		};
-		F56F6A951F791FC8004451CB /* Test */ = {
+		F56F6A951F791FC8004451CB /* __ProjectName__ */ = {
 			isa = PBXGroup;
 			children = (
 			);
-			path = Test;
+			path = __ProjectName__;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		F56F6A7C1F791637004451CB /* Test */ = {
+		F56F6A7C1F791637004451CB /* __ProjectName__ */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F56F6A8F1F791637004451CB /* Build configuration list for PBXNativeTarget "Test" */;
+			buildConfigurationList = F56F6A8F1F791637004451CB /* Build configuration list for PBXNativeTarget "__ProjectName__" */;
 			buildPhases = (
 				F56F6A791F791637004451CB /* Sources */,
 				F56F6A7A1F791637004451CB /* Frameworks */,
@@ -87,9 +87,9 @@
 			);
 			dependencies = (
 			);
-			name = Test;
-			productName = Test;
-			productReference = F56F6A7D1F791637004451CB /* Test.app */;
+			name = __ProjectName__;
+			productName = __ProjectName__;
+			productReference = F56F6A7D1F791637004451CB /* __ProjectName__.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -108,7 +108,7 @@
 					};
 				};
 			};
-			buildConfigurationList = F56F6A781F791637004451CB /* Build configuration list for PBXProject "Test" */;
+			buildConfigurationList = F56F6A781F791637004451CB /* Build configuration list for PBXProject "__ProjectName__" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -121,7 +121,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				F56F6A7C1F791637004451CB /* Test */,
+				F56F6A7C1F791637004451CB /* __ProjectName__ */,
 			);
 		};
 /* End PBXProject section */
@@ -283,9 +283,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = Test/Info.plist;
+				INFOPLIST_FILE = __ProjectName__/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = ci123.Test;
+				PRODUCT_BUNDLE_IDENTIFIER = ci123.__ProjectName__;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -297,9 +297,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = Test/Info.plist;
+				INFOPLIST_FILE = __ProjectName__/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = ci123.Test;
+				PRODUCT_BUNDLE_IDENTIFIER = ci123.__ProjectName__;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -309,7 +309,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		F56F6A781F791637004451CB /* Build configuration list for PBXProject "Test" */ = {
+		F56F6A781F791637004451CB /* Build configuration list for PBXProject "__ProjectName__" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F56F6A8D1F791637004451CB /* Debug */,
@@ -318,7 +318,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F56F6A8F1F791637004451CB /* Build configuration list for PBXNativeTarget "Test" */ = {
+		F56F6A8F1F791637004451CB /* Build configuration list for PBXNativeTarget "__ProjectName__" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F56F6A901F791637004451CB /* Debug */,

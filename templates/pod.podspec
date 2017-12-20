@@ -1,18 +1,18 @@
 Pod::Spec.new do |s|
 
-  s.name         = "Test"
+  s.name         = "__ProjectName__"
   s.version      = "1"
-  s.summary      = "Test."
+  s.summary      = "__ProjectName__."
 
   s.description  = <<-DESC
-                    this is Test
+                    this is __ProjectName__
                    DESC
 
-  s.homepage     = "noen"
+  s.homepage     = "__HomePage__"
 
   s.license      = { :type => "MIT", :file => "FILE_LICENSE" }
 
-  s.author       = "tasnhui"
+  s.author       = "__Author__"
 
   s.platform     = :ios, "8.0"
 
@@ -22,14 +22,14 @@ Pod::Spec.new do |s|
   # s.watchos.deployment_target = "2.0"
   # s.tvos.deployment_target = "9.0"
 
-  s.source       = { :git => "none", :tag => s.version.to_s }
+  s.source       = { :git => "__SSHRepo__", :tag => s.version.to_s }
 
-  s.source_files  = "Test/Test/**/*.{h,m}"
+  s.source_files  = "Classes/__ProjectName__/**/*.{h,m}"
   # s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
 
-  s.resources  = "Test/Test/**/*.{storyboard,xib}", "Test/Assets.xcassets"
+  s.resources  = "Classes/__ProjectName__/**/*.{storyboard,xib}", "Classes/Asset/*"
   # s.resources = "Resources/*.png"
 
   # s.preserve_paths = "FilesToSave", "MoreFilesToSave"
@@ -43,5 +43,13 @@ Pod::Spec.new do |s|
   s.requires_arc = true
 
   # s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
-  # s.dependency "AFNetworking"
+  s.dependency "Then",'2.1.0'
+  s.dependency "SnapKit",'3.2.0'
+  s.dependency "SwiftLint",'0.21.0'
+  s.dependency "RxSwift",'3.6.1'
+  s.dependency "RxCocoa","3.6.1"
+  s.dependency "RxDataSources","1.0.4"
+  s.dependency "CIRouter",'0.0.3'
+  s.dependency "RxOptional",'3.1.3'
+  s.dependency "RxBlocking",'3.6.1'
 end
